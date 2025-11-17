@@ -1,0 +1,122 @@
+/* ============ GLOBAL ============ */
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+}
+
+/* ---------- SIDEBAR (setFixedWidth 400) ---------- */
+QWidget#SidebarWidget {                     
+    background-color: #34495e;  
+} 
+
+/* QWidget#SidebarWidget {
+    background-color: qlineargradient(
+        x1: 0, y1: 0, x2: 0, y2: 1,
+        stop: 0 #196F3D,
+        stop: 1 #145A32
+    );
+} */
+
+QPushButton[menuButton="true"] {
+    color: #ecf0f1;
+    background: transparent;
+    padding: 10px 20px;
+    text-align: left;
+    border: none;
+}
+
+QPushButton[menuButton="true"]:hover {
+    background-color: #2c3e50;             /* hover sama seperti HTML */
+}
+
+QPushButton[menuButton="true"].active {     /* bisa di-toggle pakai setProperty("active", true) */
+    background-color: #3498db;
+    border-left: 4px solid #2980b9;
+}
+
+/* ---------- MAIN CONTENT ---------- */
+QStackedWidget {
+    background-color: #ecf0f1;
+}
+
+/* Kartu / panel putih */
+QFrame[card="true"], QWidget[card="true"] {
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    /* bayangan ringan simulasi */
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+/* Card header */
+QLabel[cardHeader="true"] {
+    color: #2c3e50;
+    font-weight: bold;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 6px;
+}
+
+/* ---------- BUTTON GENERIC ---------- */
+QPushButton {
+    min-height: 28px;
+    min-width: 90px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+QPushButton[class~="primary"] {
+    background: #3498db;
+    color: #ffffff;
+}
+
+QPushButton[class~="danger"] {
+    background: #e74c3c;
+    color: #ffffff;
+}
+
+QPushButton[class~="success"] {
+    background: #27ae60;
+    color: #ffffff;
+}
+
+QPushButton:pressed {
+    padding-left: 11px;                     /* kesan ditekan */
+    padding-top: 1px;
+}
+
+/* ---------- TABLE ---------- */
+QHeaderView::section {
+    background: #2c3e50;
+    color: #ffffff;
+    padding: 6px;
+    border: none;
+}
+
+QTableWidget QTableCornerButton::section {
+    background: #2c3e50;
+}
+
+/* Row hover */
+QTableWidget::item:hover {
+    background: #f5f5f5;
+}
+
+/* ---------- STATUS BADGE ---------- */
+QLabel[status="completed"]  { background:#d4edda; color:#155724; padding:3px 6px; border-radius:3px; }
+QLabel[status="pending"]    { background:#fff3cd; color:#856404; }
+QLabel[status="cancelled"]  { background:#f8d7da; color:#721c24; }
+
+/* ---------- LOGIN WINDOW (opsional) ---------- */
+QWidget#LoginContainer {
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 30px;
+    border: 1px solid rgba(0,0,0,0.08);
+}
+
+img.logo {
+  display:block;
+  margin:0 auto 6px auto;
+  max-height:80px;
+  max-width:200px;
+}

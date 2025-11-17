@@ -1,0 +1,8 @@
+id,last_update,nama,cabang_id,cabang_nama,logo,cetak_logo,jenis_printer,header1,header2,header3,footer1,footer2,footer3,status,oleh_id,oleh_nama,toko_id,trash
+1,2023-10-16 09:59:30,print label,100,cabang utama,logo_boga_ori.png,0,80,CV. SUMBER BOGA,"Jl. Kapten Patimura No 232
+KarangLewas Lor, Purwokerto Barat",Telp: +62 811-26-99-77-6,,BARANG YANG SUDAH DIBELI TIDAK BISA DI TUKAR ATAU DIKEMBALIKAN,"IG: @sumberboga_karanglewas
+Terima Kasih Atas Kunjungan Anda
+",1,,,1001,0
+2,2023-12-04 10:17:55,print label,101,BPJ,,0,80,BATUR PUTRA JAYA,,,,BARANG YANG SUDAH DIBELI TIDAK BISA DI TUKAR ATAU DIKEMBALIKAN,"IG: @sumberboga_karanglewas
+Terima Kasih Atas Kunjungan Anda",1,,,1001,0
+print_mode,auto

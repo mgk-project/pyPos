@@ -1,0 +1,24 @@
+{
+  "printers": [
+    {
+      "name": "EPPOS 58 Bluetooth",
+      "paper_size": "58mm",
+      "default": false
+    },
+    {
+      "name": "Microsoft Print to PDF",
+      "paper_size": "58mm",
+      "default": false
+    },
+    {
+      "name": "OneNote for Windows 10",
+      "paper_size": "58mm",
+      "default": false
+    },
+    {
+      "name": "\\\\192.168.5.1\\EPPOS 58 Bluetooth",
+      "paper_size": "58mm",
+      "default": true
+    }
+  ]
+}
